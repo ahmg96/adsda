@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.wi_projekt.fragments.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.wi_projekt.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/monthFragment"
+        android:name="com.example.wi_projekt.fragments.MonthFragment"
+        android:label="fragment_month"
+        tools:layout="@layout/fragment_month" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.wi_projekt.fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/todayFragment"
+        android:name="com.example.wi_projekt.fragments.TodayFragment"
+        android:label="fragment_today"
+        tools:layout="@layout/fragment_today" />
+
+</navigation>

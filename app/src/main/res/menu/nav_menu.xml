@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/budget"
+        android:title="Budget"/>
+
+    <item
+        android:id="@+id/todayFragment"
+        android:icon="@drawable/today"
+        android:title="Heute"/>
+
+    <item
+        android:id="@+id/monthFragment"
+        android:icon="@drawable/month"
+        android:title="Monat"/>
+
+    <item
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/ic_history"
+        android:title="Historie"/>
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="Einstellungen"/>
+
+</menu>

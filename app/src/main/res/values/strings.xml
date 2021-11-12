@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">WI-projekt</string>
+    <string name="einkauf_aufnehmen">Einkauf Aufnehmen</string>
+    <string name="wi_projekt">WI-Projekt</string>
+    <string name="monatsbudget">Monatsbudget</string>
+    <string name="jahresbudget">Jahresbudget</string>
+    <string name="dialog_fals_input">Eingabe ist nicht Valide</string>
+    <string name="fire">Okay</string>
+    <string name="cancel">Schließen</string>
+    <string name="image">image</string>
+    <string name="email_adresse">Email Adresse</string>
+    <string name="passwort">passwort</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="title_activity_einstellungen">Einstellungen</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="preference_file_key">WIProjekt</string>
+
+    <!-- Währungen -->
+    <string-array name="curency">
+        <item></item>
+    </string-array>
+</resources>

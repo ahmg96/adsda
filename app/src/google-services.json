@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "626777390035",
+    "firebase_url": "https://wi-projekt-4c3ee-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "wi-projekt-4c3ee",
+    "storage_bucket": "wi-projekt-4c3ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626777390035:android:d3be45c126471636058d26",
+        "android_client_info": {
+          "package_name": "com.example.finanzplaner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626777390035-t0894fdbqgj43kjmr0n2h75nh5f3q26p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwIpaGnUdaVFr8oaT9vSDFXyRNJmB4CWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626777390035-t0894fdbqgj43kjmr0n2h75nh5f3q26p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626777390035:android:71bf9ccdfbed598b058d26",
+        "android_client_info": {
+          "package_name": "com.example.wi_projekt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626777390035-t0894fdbqgj43kjmr0n2h75nh5f3q26p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwIpaGnUdaVFr8oaT9vSDFXyRNJmB4CWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626777390035-t0894fdbqgj43kjmr0n2h75nh5f3q26p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

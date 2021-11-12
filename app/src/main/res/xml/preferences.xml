@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Buchungsdetails">
+        <ListPreference
+            android:defaultValue="EUR"
+            android:dialogIcon="@drawable/ic_baseline_attach_money_24"
+            android:entries="@array/currencys"
+            android:entryValues="@array/values"
+            android:icon="@drawable/ic_baseline_attach_money_24"
+            android:key="pre_cur"
+            android:title="Währung"
+            app:dialogIcon="@drawable/ic_baseline_attach_money_24" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Account">
+
+        <SwitchPreference
+            android:key="prefEingeloggt"
+            android:summaryOff="false"
+            android:summaryOn="true"
+            android:icon="@drawable/ic_baseline_security_24"
+            android:title="Angemeldet belieben"/>
+
+        <Preference
+            android:key="prefAusloggen"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="Ausloggen" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
